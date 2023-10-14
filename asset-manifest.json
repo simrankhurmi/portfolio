@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/simrankhurmi/static/css/main.445a23f2.css",
+    "main.js": "/simrankhurmi/static/js/main.aa382268.js",
+    "static/js/787.1f11dfe9.chunk.js": "/simrankhurmi/static/js/787.1f11dfe9.chunk.js",
+    "static/media/cv.png": "/simrankhurmi/static/media/cv.33413d37f0b967080fcd.png",
+    "static/media/download.jpeg": "/simrankhurmi/static/media/download.80939351112c71946aa0.jpeg",
+    "static/media/logo.svg": "/simrankhurmi/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/simrankhurmi/index.html",
+    "main.445a23f2.css.map": "/simrankhurmi/static/css/main.445a23f2.css.map",
+    "main.aa382268.js.map": "/simrankhurmi/static/js/main.aa382268.js.map",
+    "787.1f11dfe9.chunk.js.map": "/simrankhurmi/static/js/787.1f11dfe9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.445a23f2.css",
+    "static/js/main.aa382268.js"
+  ]
+}
