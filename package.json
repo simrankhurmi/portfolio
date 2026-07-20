@@ -1,7 +1,7 @@
 {
   "name": "myportfolio",
   "version": "0.2.0",
-  "homepage": "https://simrankhurmi.github.io/portfolio",
+  "homepage": "/",
   "private": true,
   "engines": {
     "node": ">=18"
