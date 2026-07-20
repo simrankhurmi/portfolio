@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Simran Khurmi — Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal portfolio site built with [Create React App](https://create-react-app.dev/) and deployed to [GitHub Pages](https://simrankhurmi.github.io/portfolio/).
 
-## Available Scripts
+## Live site
 
-In the project directory, you can run:
+https://simrankhurmi.github.io/portfolio/
 
-### `npm start`
+## Local development
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+npm install
+npm start
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### `npm test`
+## Scripts
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Command | Description |
+| --- | --- |
+| `npm start` | Run the app in development mode |
+| `npm run build` | Create a production build in `build/` |
+| `npm test` | Run tests once in CI mode |
+| `npm run deploy` | Build and publish to the `gh-pages` branch manually |
 
-### `npm run build`
+## Deploying to GitHub Pages
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This repo is configured for GitHub Pages with a project base path of `/portfolio` (see `homepage` in `package.json`).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Option 1: GitHub Actions (recommended)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Push to the `main` branch.
+2. In GitHub: **Settings → Pages → Build and deployment → Source** → choose **GitHub Actions**.
+3. The workflow in `.github/workflows/deploy.yml` builds and publishes on every push to `main`.
 
-### `npm run eject`
+### Option 2: Manual deploy
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm run deploy
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Then in **Settings → Pages**, set the source to the `gh-pages` branch.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Git setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The repo already tracks source files and ignores build output, dependencies, and local env files via `.gitignore`.
 
-## Learn More
+After making changes:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git add .
+git commit -m "Describe your changes"
+git push origin main
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Remote: `https://github.com/simrankhurmi/portfolio.git`
 
-### Code Splitting
+## Project structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+src/
+  components/   # Nav, hero content, social links
+  images/       # Background and profile assets
+public/         # Static HTML shell and icons
+```
 
-### Analyzing the Bundle Size
+## Tech stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React 18
+- Create React App
+- Font Awesome (CDN)
+- GitHub Pages
