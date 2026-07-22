@@ -116,12 +116,12 @@ export const projects = [
     featured: true,
   },
   {
-    title: 'Portfolio Figma Replica',
+    title: 'Portfolio Website',
     description:
-      'Pixel-accurate conversion of a Figma portfolio design into a responsive React application with reusable components and Tailwind styling.',
+      'My portfolio website built with React, TypeScript, and Tailwind CSS to showcase my projects and skills.',
     tech: ['React', 'TypeScript', 'Tailwind CSS'],
-    github: 'https://github.com/simrankhurmi/portfolio_replica_figma',
-    live: null,
+    github: 'https://github.com/simrankhurmi/portfolio',
+    live: 'https://simrankhurmi.github.io/portfolio/',
     featured: true,
   },
   {
