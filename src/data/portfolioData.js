@@ -125,13 +125,13 @@ export const projects = [
     featured: true,
   },
   {
-    title: 'Mini Blog Platform',
+    title: 'AI Blog Writer',
     description:
-      'Content-focused blog application with clean reading experience, post management, and responsive layout for mobile and desktop.',
-    tech: ['React', 'JavaScript', 'CSS'],
-    github: 'https://github.com/simrankhurmi/my_mini_blog',
-    live: null,
-    featured: false,
+      'AI Blog Writer is a content-focused blog application with clean reading experience, post management, and responsive layout for mobile and desktop.',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'OpenAI API', 'Node.js', 'Express', 'MongoDB'],
+    github: 'https://github.com/simrankhurmi/ai-blog-writer',
+    live: 'https://ai-blog-writer-q1cxlhy0d-simran-khurmis-projects.vercel.app',
+    featured: true,
   },
   {
     title: 'Brand Landing Page',
