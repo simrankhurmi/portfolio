@@ -23,7 +23,7 @@ export const profile = {
 
 export const stats = [
   { value: '2+', label: 'Years Experience' },
-  { value: '6+', label: 'Projects Built' },
+  { value: '8+', label: 'Projects Built' },
   { value: '10+', label: 'Technologies' },
 ];
 
@@ -131,6 +131,24 @@ export const projects = [
     tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'OpenAI API', 'Node.js', 'Express', 'MongoDB'],
     github: 'https://github.com/simrankhurmi/ai-blog-writer',
     live: 'https://ai-blog-writer-q1cxlhy0d-simran-khurmis-projects.vercel.app',
+    featured: true,
+  },
+  {
+    title: 'SmileCraft — Dental Clinic Website',
+    description:
+      'Responsive dental clinic website with service sections, online appointment booking, FAQ chatbot, floating WhatsApp/call buttons, and Google Maps integration.',
+    tech: ['HTML5', 'CSS3', 'JavaScript', 'Webflow-style', 'Responsive Design'],
+    github: 'https://github.com/simrankhurmi/dentalwebsample',
+    live: 'https://dentalsamplewebflow.netlify.app',
+    featured: true,
+  },
+  {
+    title: 'Lumière Beauty Salon',
+    description:
+      'Multi-page beauty salon website with services showcase, appointment booking modal, FAQ chatbot, and embedded location map — fully responsive across devices.',
+    tech: ['React', 'Vite', 'React Router', 'CSS', 'Responsive Design'],
+    github: 'https://github.com/simrankhurmi/beautySalonSample',
+    live: 'https://beautysalonsample.netlify.app',
     featured: true,
   },
   {
